@@ -94,16 +94,17 @@
 
 
 
-<meta name="description" content="lyn的博客">
-<meta property="og:type" content="website">
+<meta name="description" content="Express 4.x APIexpress 翻译 api文档 中文    express()express()用来创建一个Express的程序。express()方法是express模块导出的顶层方法。 1.  &amp;lt;span class=&amp;quot;kwd&amp;quot;&amp;gt;var&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;pln&amp;quot;&amp;gt; expres">
+<meta property="og:type" content="article">
 <meta property="og:title" content="lyn的博客">
-<meta property="og:url" content="https://lynally.github.io/learn.github.io/index.html">
+<meta property="og:url" content="https://lynally.github.io/learn.github.io/2017/08/30/express 4.x API 中文/index.html">
 <meta property="og:site_name" content="lyn的博客">
-<meta property="og:description" content="lyn的博客">
+<meta property="og:description" content="Express 4.x APIexpress 翻译 api文档 中文    express()express()用来创建一个Express的程序。express()方法是express模块导出的顶层方法。 1.  &amp;lt;span class=&amp;quot;kwd&amp;quot;&amp;gt;var&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;pln&amp;quot;&amp;gt; expres">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-30T02:08:33.638Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="lyn的博客">
-<meta name="twitter:description" content="lyn的博客">
+<meta name="twitter:description" content="Express 4.x APIexpress 翻译 api文档 中文    express()express()用来创建一个Express的程序。express()方法是express模块导出的顶层方法。 1.  &amp;lt;span class=&amp;quot;kwd&amp;quot;&amp;gt;var&amp;lt;/span&amp;gt;&amp;lt;span class=&amp;quot;pln&amp;quot;&amp;gt; expres">
 
 
 
@@ -132,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="https://lynally.github.io/learn.github.io/"/>
+  <link rel="canonical" href="https://lynally.github.io/learn.github.io/2017/08/30/express 4.x API 中文/"/>
 
 
 
 
 
-  <title>lyn的博客</title>
+  <title> | lyn的博客</title>
   
 
 
@@ -163,9 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -258,9 +257,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -290,9 +289,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/learn.github.io/2017/08/30/express 4.x API 中文/" itemprop="url">未命名</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -342,9 +339,7 @@
       
 
       
-        
-          
-            <div id="wmd-preview" class="wmd-preview wmd-preview-full-reader" data-medium-element="true" style="left: 0px;"><div class="md-section-divider"></div><div class="md-section-divider"></div>
+        <div id="wmd-preview" class="wmd-preview wmd-preview-full-reader" data-medium-element="true" style="left: 0px;"><div class="md-section-divider"></div><div class="md-section-divider"></div>
 
 <h1 id="Express-4-x-API"><a href="#Express-4-x-API" class="headerlink" title="Express 4.x API"></a>Express 4.x API</h1><p><code>express</code> <code>翻译</code> <code>api文档</code> <code>中文</code></p>
 <hr>
@@ -831,8 +826,6 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;div class=&quot;md-section-divider&quot;&gt;&lt;/div&gt;&lt;pre class=&quot;prettyprint linenums prettyprinted&quot; data-anchor-id=&quot;b4n5&quot;&gt;
 
 1.</code><span class="pln">app</span><span class="pun">.</span><span class="kwd">use</span><span class="pun">(</span><span class="pln">express</span><span class="pun">.</span><span class="kwd">static</span><span class="pun">(</span><span class="pln"><strong>dirname </strong></span><span class="pun">+</span><span class="pln"> </span><span class="str">‘/public’</span><span class="pun">));</span><code>2.</code><span class="pln">app</span><span class="pun">.</span><span class="kwd">use</span><span class="pun">(</span><span class="pln">express</span><span class="pun">.</span><span class="kwd">static</span><span class="pun">(</span><span class="pln">dirname </span><span class="pun">+</span><span class="pln"> </span><span class="str">‘/files’</span><span class="pun">));</span><code>3.</code><span class="pln">app</span><span class="pun">.</span><span class="kwd">use</span><span class="pun">(</span><span class="pln">express</span><span class="pun">.</span><span class="kwd">static</span><span class="pun">(</span><span class="pln">__dirname </span><span class="pun">+</span><span class="pln"> </span><span class="str">‘/uploads’</span><span class="pun">));</span><code>&lt;/pre&gt;</code>router.use()`方法也支持命名参数，以便你的挂载点对于其他的路由而言，可以使用命名参数来进行预加载，这样做是很有益的。<br></pre></div>
-          
-        
       
     </div>
     
@@ -849,155 +842,28 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lynally.github.io/learn.github.io/learn.github.io/2017/08/13/在此处打开命令窗口中，提示xxx不是内部命令或外部命令。。/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lyn">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/learn.github.io/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lyn的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/learn.github.io/2017/08/13/在此处打开命令窗口中，提示xxx不是内部命令或外部命令。。/" itemprop="url">在此处打开命令窗口中，提示xxx不是内部命令或外部命令。。</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-13T11:53:36+08:00">
-                2017-08-13
-              </time>
+              <a href="/learn.github.io/2017/08/13/在此处打开命令窗口中，提示xxx不是内部命令或外部命令。。/" rel="next" title="在此处打开命令窗口中，提示xxx不是内部命令或外部命令。。">
+                <i class="fa fa-chevron-left"></i> 在此处打开命令窗口中，提示xxx不是内部命令或外部命令。。
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/learn.github.io/categories/技术/" itemprop="url" rel="index">
-                    <span itemprop="name">技术</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>在‘在此处打开命令窗口’，输入命令提示 ‘xxx 不是内部或外部命令。。。’但在cmd调出的命令窗输入，却可以正确执行。</p>
-<p>解决办法：注销再登陆。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -1007,588 +873,11 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lynally.github.io/learn.github.io/learn.github.io/2017/08/09/我的第一篇文章-测试/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lyn">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/learn.github.io/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lyn的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/learn.github.io/2017/08/09/我的第一篇文章-测试/" itemprop="url">我的第一篇文章-测试</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-09T15:54:29+08:00">
-                2017-08-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/learn.github.io/categories/测试1/" itemprop="url" rel="index">
-                    <span itemprop="name">测试1</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lynally.github.io/learn.github.io/learn.github.io/2017/08/09/hexo命令/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lyn">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/learn.github.io/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lyn的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/learn.github.io/2017/08/09/hexo命令/" itemprop="url">个人博客搭建</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-09T15:54:29+08:00">
-                2017-08-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h5 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h5><p>开发时间：2017.8.9<br>博客架构：hexo 静态博客<br>参考资料：<a href="http://www.jianshu.com/p/701b1095da11" target="_blank" rel="external">http://www.jianshu.com/p/701b1095da11</a></p>
-<hr>
-<h5 id="hexo命令"><a href="#hexo命令" class="headerlink" title="hexo命令"></a>hexo命令</h5><p>######启动</p>
-<ul>
-<li>hexo generate  </li>
-<li>hexo server<br>######hexo常用命令</li>
-<li>hexo help #查看帮助  </li>
-<li>hexo init #初始化一个目录</li>
-<li>hexo new “postName” #新建文章</li>
-<li>hexo new page “pageName” #新建页面</li>
-<li>hexo generate #生成网页，可以在 public 目录查看整个网站的文件</li>
-<li>hexo server #本地预览，’Ctrl+C’关闭</li>
-<li>hexo deploy #部署.deploy目录</li>
-<li>hexo clean #清除缓存，</li>
-<li>强烈建议每次执行命令前先清理缓存，每次部署前先删除 .deploy 文件夹</li>
-<li>hexo generate –deploy  以下两个都是生成+部署</li>
-<li>hexo deploy –generate</li>
-</ul>
-<p>######简写 </p>
-<ul>
-<li>hexo n == hexo new</li>
-<li>hexo g == hexo generate</li>
-<li>hexo s == hexo server</li>
-<li>hexo d == hexo deploy</li>
-<li>hexo g -d == hexo generate –deploy</li>
-<li>hexo d -g == hexo deploy –generate</li>
-</ul>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lynally.github.io/learn.github.io/learn.github.io/2017/08/09/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lyn">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/learn.github.io/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lyn的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/learn.github.io/2017/08/09/test/" itemprop="url">刘小妞</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-09T15:54:29+08:00">
-                2017-08-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/learn.github.io/categories/测试2/" itemprop="url" rel="index">
-                    <span itemprop="name">测试2</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="hello-刘小妞儿"><a href="#hello-刘小妞儿" class="headerlink" title="hello 刘小妞儿"></a>hello 刘小妞儿</h3>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lynally.github.io/learn.github.io/learn.github.io/2017/08/09/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="lyn">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/learn.github.io/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="lyn的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/learn.github.io/2017/08/09/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-09T15:54:29+08:00">
-                2017-08-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/learn.github.io/categories/测试/" itemprop="url" rel="index">
-                    <span itemprop="name">测试</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -1596,6 +885,12 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDEwNS82NjYw"></div>
+    
+  </div>
+
 
         </div>
         
@@ -1616,8 +911,17 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/learn.github.io/images/avatar.gif"
@@ -1679,6 +983,22 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Express-4-x-API"><span class="nav-number">1.</span> <span class="nav-text">Express 4.x API</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#express"><span class="nav-number">1.1.</span> <span class="nav-text">express()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Methods"><span class="nav-number">1.1.1.</span> <span class="nav-text">Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#express-static-root-options"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">express.static(root, [options])</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Application"><span class="nav-number">1.2.</span> <span class="nav-text">Application()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Properties"><span class="nav-number">1.2.1.</span> <span class="nav-text">Properties</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#app-locals"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">app.locals</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-mountpath"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">app.mountpath</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Events"><span class="nav-number">1.2.2.</span> <span class="nav-text">Events</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#app-on-‘mount’-callback-parent"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">app.on(‘mount’, callback(parent))</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Methods-1"><span class="nav-number">1.2.3.</span> <span class="nav-text">Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#app-all-path-callback-callback-…"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">app.all(path, callback[, callback …]</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-delete-path-callback-callback-…"><span class="nav-number">1.2.3.2.</span> <span class="nav-text">app.delete(path, callback[, callback …])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-disable-name"><span class="nav-number">1.2.3.3.</span> <span class="nav-text">app.disable(name)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-disabled-name"><span class="nav-number">1.2.3.4.</span> <span class="nav-text">app.disabled(name)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-enable-name"><span class="nav-number">1.2.3.5.</span> <span class="nav-text">app.enable(name)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-enabled-name"><span class="nav-number">1.2.3.6.</span> <span class="nav-text">app.enabled(name)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-engine-ext-callback"><span class="nav-number">1.2.3.7.</span> <span class="nav-text">app.engine(ext, callback)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-get-name"><span class="nav-number">1.2.3.8.</span> <span class="nav-text">app.get(name)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-get-path-callback-callback-…"><span class="nav-number">1.2.3.9.</span> <span class="nav-text">app.get(path, callback [, callback …])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-listen-port-hostname-backlog-callback"><span class="nav-number">1.2.3.10.</span> <span class="nav-text">app.listen(port, [hostname], [backlog], [callback])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#app-METHOD-path-callback-callback-…"><span class="nav-number">1.2.3.11.</span> <span class="nav-text">app.METHOD(path, callback [, callback …])</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Request"><span class="nav-number">1.3.</span> <span class="nav-text">Request</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Properties-1"><span class="nav-number">1.3.1.</span> <span class="nav-text">Properties</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#req-app"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">req.app</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#req-baseUrl"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">req.baseUrl</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#req-body"><span class="nav-number">1.3.1.3.</span> <span class="nav-text">req.body</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#req-cookies"><span class="nav-number">1.3.1.4.</span> <span class="nav-text">req.cookies</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#req-fresh"><span class="nav-number">1.3.1.5.</span> <span class="nav-text">req.fresh</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Response"><span class="nav-number">1.4.</span> <span class="nav-text">Response</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Properties-2"><span class="nav-number">1.4.1.</span> <span class="nav-text">Properties</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#res-app"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">res.app</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-headersSent"><span class="nav-number">1.4.1.2.</span> <span class="nav-text">res.headersSent</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-locals"><span class="nav-number">1.4.1.3.</span> <span class="nav-text">res.locals</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Methods-2"><span class="nav-number">1.4.2.</span> <span class="nav-text">Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#res-append-field-value"><span class="nav-number">1.4.2.1.</span> <span class="nav-text">res.append(field [, value])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-attachment-filename"><span class="nav-number">1.4.2.2.</span> <span class="nav-text">res.attachment([filename])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-cookie-name-value-options"><span class="nav-number">1.4.2.3.</span> <span class="nav-text">res.cookie(name, value [,options])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-sendStatus-statusCode"><span class="nav-number">1.4.2.4.</span> <span class="nav-text">res.sendStatus(statusCode)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-set-field-value"><span class="nav-number">1.4.2.5.</span> <span class="nav-text">res.set(field [, value])</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-status-code"><span class="nav-number">1.4.2.6.</span> <span class="nav-text">res.status(code)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-type-type"><span class="nav-number">1.4.2.7.</span> <span class="nav-text">res.type(type)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#res-vary-field"><span class="nav-number">1.4.2.8.</span> <span class="nav-text">res.vary(field)</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Router"><span class="nav-number">1.5.</span> <span class="nav-text">Router</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Router-options"><span class="nav-number">1.5.0.1.</span> <span class="nav-text">Router([options])</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Methods-3"><span class="nav-number">1.5.1.</span> <span class="nav-text">Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#router-all-path-callback-…-callback"><span class="nav-number">1.5.1.1.</span> <span class="nav-text">router.all(path, [callback, …] callback)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#router-METHOD-path-callback-…-callback"><span class="nav-number">1.5.1.2.</span> <span class="nav-text">router.METHOD(path, [callback, …] callback)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#router-param-name-callback"><span class="nav-number">1.5.1.3.</span> <span class="nav-text">router.param(name, callback)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#router-route-path"><span class="nav-number">1.5.1.4.</span> <span class="nav-text">router.route(path)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#router-use-path-function-…-function"><span class="nav-number">1.5.1.5.</span> <span class="nav-text">router.use([path], [function, …] function)</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1792,10 +1112,10 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
   
 
   
-    <script type="text/javascript" src="/learn.github.io/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/learn.github.io/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/learn.github.io/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -1824,6 +1144,17 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
